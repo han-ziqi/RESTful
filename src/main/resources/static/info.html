@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery/jquery-3.6.4.min.js"></script>
+
+    <script>
+
+        $(function (){
+
+            $("#btn1").click(function (){
+                //Request - find certain
+                $.get("/things/1",function (data){
+                    console.log(data);
+                })
+            })
+
+            $("#btn2").click(function (){
+                //Request - find all
+                $.get("/things",function (data){
+                    console.log(data);
+                })
+            })
+
+            $("#btn3").click(function (){
+                //Request - Add
+                $.post("/things",{name:"dancing",time:1},function (data){
+                    console.log(data);
+                })
+            })
+
+            $("#btn4").click(function (){
+                //Request - Update
+                // wrong - no $.put
+                // $.put("/things",{name:"dancing",time:1},function (data){
+                //     console.log(data);
+
+                $.ajax({
+                    url:"/things",
+                    type:"PUT", // Change to GET could same as before
+                    data:{id:1, name: "Dota",time: 3},
+                    success:function (data){
+                        console.log(data);
+                    }
+                })
+
+            })
+
+            $("#btn5").click(function (){
+                //Request - Delete
+
+                $.ajax({
+                    url:"/things",
+                    type:"DELETE", // Change to GET could same as before
+                    data:{id:1},
+                    success:function (data){
+                        console.log(data);
+                    }
+                })
+
+            })
+
+        })
+
+
+    </script>
+
+
+</head>
+
+<body>
+<button id="btn1">Find Certain</button>
+<button id="btn2">Find All</button>
+<button id="btn3">Add</button>
+<button id="btn4">Update</button>
+<button id="btn5">Delete</button>
+
+</body>
+</html>
