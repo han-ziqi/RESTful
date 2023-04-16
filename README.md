@@ -69,19 +69,21 @@ Advantages:
    3. Implementing CRUD operations using RESTful endpoints
    4. Testing the RESTful endpoints using Postman
 
-- Recap of the course
+Recap of the course
+
 1. Request path
-Determine the specific operation resources, combined with the needs, you can add the path prefix and suffix as appropriate, or use the parameter path way
+   Determine the specific operation resources, combined with the needs, you can add the path prefix and suffix as appropriate, or use the parameter path way
 2. Request method
-According to the actual function of the interface, find the appropriate method for the CRUD of the resource
-  - Resources from nothing: POST
-  - Resources from yes to no: DELETE
-  - Resource from state A to state B: PUT
-  - Resource state does not change: GET
+   According to the actual function of the interface, find the appropriate method for the CRUD of the resource
+   1. Resources from nothing: POST
+   2. Resources from yes to no: DELETE
+   3. Resource from state A to state B: PUT
+   4. Resource state does not change: GET
+
 3. Request parameters
-Parameters are passed in as required according to the function of the interface implementation
-4. Request response
-According to the interface implementation, the client calls the requirements to determine the specific return value, it is recommended to use JSON format.
-To sum up a sentence: RESTful is an interface design style, it is recommended that you obey, the development in compliance with the premise, combined with the actual flexible treatment.
+   Parameters are passed in as required according to the function of the interface implementation
+
+3. Request response
+   According to the interface implementation, the client calls the requirements to determine the specific return value, it is recommended to use JSON format.
 
 
