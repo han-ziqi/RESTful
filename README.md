@@ -78,9 +78,9 @@ According to the actual function of the interface, find the appropriate method f
 - Resources from yes to no: DELETE
 - Resource from state A to state B: PUT
 - Resource state does not change: GET
-3.Request parameters
+3. Request parameters
 Parameters are passed in as required according to the function of the interface implementation
-4.Request response
+4. Request response
 According to the interface implementation, the client calls the requirements to determine the specific return value, it is recommended to use JSON format.
 To sum up a sentence: RESTful is an interface design style, it is recommended that you obey, the development in compliance with the premise, combined with the actual flexible treatment.
 
