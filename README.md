@@ -32,21 +32,22 @@ Course Outline:
   
 
 - Overview of the course
+
 1. Setting up the Development Environment
-  1. Installing Java and SpringBoot
-  2. Creating a new SpringBoot project
-  3. Setting up the project structure
+   1. Installing Java and SpringBoot
+   2. Creating a new SpringBoot project
+   3. Setting up the project structure
 2. Building a Todo List Project
-  1. Creating the Todo model class
-  2. Creating the Todo repository class
-  3. Creating the Todo service class
-  4. Creating the Todo controller class
-  5. Testing the Todo controller class
+   1. Creating the Todo model class
+   2. Creating the Todo repository class
+   3. Creating the Todo service class
+   4. Creating the Todo controller class
+   5. Testing the Todo controller class
 3. Adapting the Controller Class to Use RESTful Style
-  1.Overview of RESTful architecture
-  2.Creating RESTful endpoints for Todo resources
-  3.Implementing CRUD operations using RESTful endpoints
-  4.Testing the RESTful endpoints using Postman
+   1. Overview of RESTful architecture
+   2. Creating RESTful endpoints for Todo resources
+   3. Implementing CRUD operations using RESTful endpoints
+   4. Testing the RESTful endpoints using Postman
 
 - Recap of the course
 Best practices for RESTful API development
