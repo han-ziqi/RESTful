@@ -74,10 +74,10 @@ Advantages:
 Determine the specific operation resources, combined with the needs, you can add the path prefix and suffix as appropriate, or use the parameter path way
 2. Request method
 According to the actual function of the interface, find the appropriate method for the CRUD of the resource
-- Resources from nothing: POST
-- Resources from yes to no: DELETE
-- Resource from state A to state B: PUT
-- Resource state does not change: GET
+  - Resources from nothing: POST
+  - Resources from yes to no: DELETE
+  - Resource from state A to state B: PUT
+  - Resource state does not change: GET
 3. Request parameters
 Parameters are passed in as required according to the function of the interface implementation
 4. Request response
