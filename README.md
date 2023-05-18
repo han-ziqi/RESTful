@@ -3,7 +3,7 @@
 
 ## About This Project
 
-The project was created with the purpose of providing a better understanding of RESTful API development. Initially, a simple todo list project was built using the SpringBoot framework. This project included a Controller class that implemented all CRUD operations (Create, Read, Update, and Delete), allowing for easy management of todo items.
+The project was created with the purpose of providing a better understanding of RESTful API development. Initially, a simple todo list project was built using the SpringBoot framework. This project included a Controller class that implemented all CRUD operations (Create, Read, Update, and Delete)
 
 ![demo](https://github.com/han-ziqi/RESTful/raw/master/demo/CRUD%20demo.png)
 This is a demo for CRUD html interface
