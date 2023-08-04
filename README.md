@@ -67,7 +67,7 @@ Advantages:
    1. Overview of RESTful architecture
    2. Creating RESTful endpoints for Todo resources
    3. Implementing CRUD operations using RESTful endpoints
-   4. Testing the RESTful endpoints using Postman
+   4. Testing the RESTful endpoints using Postman software
 
 Recap of the course
 
